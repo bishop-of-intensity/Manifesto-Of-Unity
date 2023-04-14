@@ -890,3 +890,103 @@ svg path {
   position: relative;
   top: 0;
 }
+
+.GUTS-Container {
+  font-size: 1.5rem;
+  font-family: sans-serif!important;
+  padding: 0.25rem;
+  border-radius: 0.4rem;
+  display: flex;
+}
+
+.GUTS-Container.first-one {
+  margin-top: 0.5rem;
+  margin-bottom: 1.7rem;
+}
+
+.GUTS-Container.second-one {
+  margin-bottom: 0.6rem;
+}
+
+.GUTS-Container button {
+  font-size: 1.5rem;
+  font-family: sans-serif!important;
+  padding: 0.25rem 0.65rem 0.25rem 0.65rem;
+  border-radius: 0.4rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.GUTS-Images-Container {
+  height: 47rem;
+  width: 100%;
+  border: 1px black solid;
+  position: relative;
+}
+
+.GUTS-selected {
+  background-color: rgb(209, 39, 39);
+}
+
+@media screen and (max-width: 63.9em) and (orientation: portrait) {
+  .GUTS-Container button {
+    font-size: 1.5rem;
+  }
+}
+
+.GUTS_Image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.img__base_of_guts {
+  background-image: url('img/GUTS/Structural.png');
+  visibility: visible!important;
+  z-index: 3;
+}
+.img__divider {
+  background-image: url('img/GUTS/Base.png');
+  visibility: visible!important;
+  z-index: 3;
+}
+.img__chakras {
+  background-image: url('img/GUTS/Chakras.png');
+  visibility: visible!important;
+  z-index: 2;
+}
+
+.img__christianity {
+  background-image: url('img/GUTS/Christianity_Cross.png');
+  visibility: visible!important;
+  z-index: 1;
+}
+.img__christianity_txt {
+  background-image: url('img/GUTS/Christianity_Text.png');
+  visibility: visible!important;
+  z-index: 11;
+}
+.img__the_big_five {
+  background-image: url('img/GUTS/the_big_five.png');
+  visibility: visible!important;
+  z-index: 10;
+}
+.img__dark_tetrad {
+  background-image: url('img/GUTS/DarkTetrad.png');
+  visibility: visible!important;
+  z-index: 9;
+}
+.img__norse_mytho {
+  background-image: url('img/GUTS/NorseMythology.png');
+  visibility: visible!important;
+  z-index: 8;
+}
+.img__abc_clusters {
+  background-image: url('img/GUTS/ABC_clusters.png');
+  visibility: visible!important;
+  z-index: 7;
+}
