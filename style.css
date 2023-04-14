@@ -925,7 +925,8 @@ svg path {
 }
 
 .GUTS-selected {
-  background-color: rgb(209, 39, 39);
+  background-color: rgb(143 0 0);
+  color: white;
 }
 
 @media screen and (max-width: 63.9em) and (orientation: portrait) {
